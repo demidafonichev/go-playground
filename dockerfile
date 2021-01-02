@@ -5,4 +5,6 @@ copy . .
 
 run go build playground
 
+expose 8080
+
 entrypoint ["./playground"]
