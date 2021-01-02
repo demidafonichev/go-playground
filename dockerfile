@@ -1,5 +1,5 @@
 from golang:1.15
-workdir /app
+workdir /go/src/app
 
 copy . .
 
