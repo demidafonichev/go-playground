@@ -5,4 +5,4 @@ copy . .
 
 run go build playground
 
-cmd playground
+entrypoint ["./playground"]
